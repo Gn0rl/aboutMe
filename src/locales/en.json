@@ -1,0 +1,296 @@
+{
+  "nav": {
+    "home": "Home",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "devops": "DevOps",
+    "gamedev": "Gamedev"
+  },
+  "hero": {
+    "status": "Life = Development",
+    "title1": "DEVELOPER",
+    "title2": "OF NUCLEAR WEAPONS",
+    "description": "Crafting modern systems with the right-fit technologies, emphasizing performance, security, and scalability.",
+    "coreProtocol": "Core Protocol",
+    "coreProtocolValue": "KUBERNETES / DOCKER",
+    "cloudFabric": "Cloud Fabric",
+    "cloudFabricValue": "AWS EKS / GCP GKE",
+    "performanceMetrics": "Performance Metrics",
+    "uptime": "UPTIME 99.999%"
+  },
+  "bento": {
+    "iac": {
+      "title": "Infrastructure as Code",
+      "description": "Immutable infrastructure defined via Terraform and Crossplane. Multi-region redundancy by design.",
+      "tags": ["Terraform", "HCL"]
+    },
+    "automation": {
+      "title": "Automation Pipelines",
+      "description": "GitHub Actions & ArgoCD integration for seamless GitOps delivery.",
+      "viewLogs": "View Logs"
+    },
+    "scaling": {
+      "title": "Horizontal Scaling",
+      "description": "Auto-scaling groups triggered by Prometheus custom metrics for 20ms response targets."
+    },
+    "observability": {
+      "title": "Observability",
+      "description": "Grafana dashboards visualizing real-time cluster health and network latency."
+    }
+  },
+  "scalability": {
+    "title1": "SCALABILITY",
+    "title2": "ENGINEERING",
+    "description": "Designing for the \"Slashdot effect\". My architecture focuses on decoupling state from logic, ensuring that any component can fail or scale without disrupting the user journey.",
+    "activeTuning": "Active Performance Tuning",
+    "config": "replicaCount: 12\nstrategy: RollingUpdate\nmaxSurge: 25%\nmaxUnavailable: 0",
+    "cardTitle": "Cloud-Native Global Traffic Manager",
+    "cardProto": "001_GTM_PROTO",
+    "cardDescription": "An automated deployment pattern for multi-cloud load balancing using Cloudflare Workers and Terraform. Reduces global latency by 45% through edge-caching and intelligent routing."
+  },
+  "stack": {
+    "aws": "AWS",
+    "kubernetes": "KUBERNETES",
+    "terraform": "TERRAFORM",
+    "docker": "DOCKER",
+    "cicd": "CI/CD"
+  },
+  "footer": {
+    "copyright": "© 2024 DIGITAL ARCHITECT. BUILT WITH RUST & NEXT.JS",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "x": "X",
+    "email": "Email"
+  },
+  "languages": {
+    "en": "EN",
+    "ru": "RU"
+  },
+  "gamedev": {
+    "hero": {
+      "title": "GAMEDEV",
+      "subtitle": "INTERACTIVE",
+      "description": "Creating immersive gaming experiences with modern engines and architectures. From indie 2D games to AAA-quality 3D environments."
+    },
+    "metrics": {
+      "engines": "Primary Engines",
+      "enginesValue": "Unity / Unreal 5",
+      "languages": "Languages",
+      "languagesValue": "C# / C++ / Blueprints",
+      "shipped": "Projects Shipped",
+      "shippedValue": "0 GAMES"
+    },
+    "projects": {
+      "interactiveWorlds": {
+        "title": "Interactive Worlds",
+        "description": "Immersive 3D environments with dynamic lighting, physics-based interactions, and compelling narratives.",
+        "tags": ["3D Worlds", "Physics", "Narrative"]
+      },
+      "unity": {
+        "title": "Unity Development",
+        "description": "C#-based game development with Unity engine for 2D and 3D experiences."
+      },
+      "unreal": {
+        "title": "Unreal Engine",
+        "description": "High-fidelity games using Unreal Engine 5 with Blueprints and C++."
+      },
+      "architecture": {
+        "title": "Game Architecture",
+        "description": "ECS patterns, entity systems, and component-based design."
+      },
+      "multiplayer": {
+        "title": "Multiplayer Systems",
+        "description": "Networked gameplay with authoritative servers and client prediction."
+      }
+    },
+    "features": {
+      "title": "GAME <br />SYSTEMS",
+      "description": "From physics simulations to AI opponents, every system is designed for modularity and performance.",
+      "activeDevelopment": "Active Development"
+    },
+    "systems": {
+      "animation": {
+        "title": "Animation System",
+        "description": "State machines, blend trees, and procedural animation for fluid character movement."
+      },
+      "lighting": {
+        "title": "Lighting & VFX",
+        "description": "Real-time global illumination, particle systems, and post-processing effects."
+      },
+      "audio": {
+        "title": "Audio Design",
+        "description": "Spatial audio, dynamic music systems, and procedural sound generation."
+      },
+      "input": {
+        "title": "Input & UI",
+        "description": "Cross-platform input handling and responsive UI systems with accessibility support."
+      }
+    },
+    "technologyStack": "TECHNOLOGY STACK",
+    "technologies": {
+      "unity": { "name": "Unity", "description": "Engine" },
+      "unreal": { "name": "Unreal", "description": "Engine" },
+      "csharp": { "name": "C#", "description": "Language" },
+      "cpp": { "name": "C++", "description": "Language" },
+      "blender": { "name": "Blender", "description": "3D Tools" },
+      "photon": { "name": "Photon", "description": "Networking" }
+    }
+  },
+  "frontend": {
+    "hero": {
+      "title": "FRONTEND",
+      "subtitle": "ARCHITECTURE",
+      "description": "Building production-ready React applications with modern patterns, type safety, and performance optimization at scale."
+    },
+    "projects": {
+      "componentArchitectureTitle": "Component Architecture",
+      "componentArchitectureDescription": "React component design with TypeScript, props drilling, and reusable UI patterns.",
+      "stateManagementTitle": "State Management",
+      "stateManagementDescription": "Context API, Zustand, and Redux implementations for complex applications.",
+      "performanceOptimizationTitle": "Performance Optimization",
+      "performanceOptimizationDescription": "Code splitting, lazy loading, and memoization for optimal bundle sizes.",
+      "accessibilityFirstTitle": "Accessibility First",
+      "accessibilityFirstDescription": "WCAG 2.1 AA compliant interfaces with keyboard navigation support."
+    },
+    "metrics": {
+      "stack": "Primary Stack",
+      "stackValue": "React 19 / TypeScript",
+      "build": "Build System",
+      "buildValue": "Vite / Turbopack",
+      "performance": "Performance Score",
+      "performanceValue": "Lighthouse 100"
+    },
+    "componentSystems": {
+      "title": "Component Systems",
+      "description": "Atomic design principles applied to React components. Building blocks for consistent, maintainable interfaces.",
+      "tags": ["Atomic Design", "Storybook", "Design Tokens"]
+    },
+    "technologyStack": "TECHNOLOGY STACK",
+    "technologies": {
+      "react": { "name": "React 19", "description": "Framework" },
+      "vite": { "name": "Vite", "description": "Build Tool" },
+      "typescript": { "name": "TypeScript", "description": "Type Safety" },
+      "scss": { "name": "SCSS", "description": "Styling" },
+      "reactRouter": { "name": "React Router", "description": "Routing" },
+      "vitest": { "name": "Vitest", "description": "Testing" }
+    }
+  },
+  "backend": {
+    "hero": {
+      "title": "BACKEND",
+      "subtitle": "SYSTEMS",
+      "description": "Building robust, scalable server-side applications with Rust and Node.js. Focus on performance, security, and maintainable architecture."
+    },
+    "metrics": {
+      "languages": "Primary Languages",
+      "languagesValue": "Rust / TypeScript",
+      "architecture": "Architecture",
+      "architectureValue": "Microservices / Event-Driven",
+      "response": "Response Time",
+      "responseValue": "P99 < 50ms"
+    },
+    "distributedSystems": {
+      "title": "Distributed Systems",
+      "description": "Microservices architecture with service mesh, circuit breakers, and resilient communication patterns.",
+      "tags": ["Microservices", "Service Mesh", "Resilience"]
+    },
+    "scalability": {
+      "title": "SCALABILITY <br />ENGINEERING",
+      "description": "Designing for the \"Slashdot effect\". My architecture focuses on decoupling state from logic, ensuring that any component can fail or scale without disrupting the user journey.",
+      "activeTuning": "Active Performance Tuning"
+    },
+    "apiGateway": {
+      "title": "Cloud-Native API Gateway",
+      "proto": "001_API_GW_PROTO",
+      "description": "High-performance API gateway with rate limiting, authentication, and request routing. Built with Rust for sub-millisecond latency."
+    },
+    "authentication": {
+      "title": "Authentication",
+      "description": "JWT-based auth with OAuth2 providers and refresh token rotation."
+    },
+    "monitoring": {
+      "title": "Monitoring",
+      "description": "Prometheus metrics and distributed tracing with Jaeger."
+    },
+    "projects": {
+      "restApiTitle": "REST API Design",
+      "restApiDescription": "RESTful APIs with OpenAPI specifications and automatic documentation.",
+      "graphqlTitle": "GraphQL Services",
+      "graphqlDescription": "Schema-first GraphQL APIs with Apollo Federation for microservices.",
+      "databaseTitle": "Database Architecture",
+      "databaseDescription": "PostgreSQL, MongoDB, and Redis with connection pooling and caching.",
+      "messageQueuesTitle": "Message Queues",
+      "messageQueuesDescription": "RabbitMQ and Kafka for event-driven architectures and async processing."
+    },
+    "technologyStack": "TECHNOLOGY STACK",
+    "technologies": {
+      "nodejs": { "name": "Node.js", "description": "Runtime" },
+      "rust": { "name": "Rust", "description": "Systems" },
+      "postgresql": { "name": "PostgreSQL", "description": "Database" },
+      "redis": { "name": "Redis", "description": "Cache" },
+      "graphql": { "name": "GraphQL", "description": "Query" },
+      "grpc": { "name": "gRPC", "description": "RPC" }
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DEVOPS",
+      "subtitle": "& CLOUD",
+      "description": "Architecting high-availability, flexible, and reliable systems. Specializing in Kubernetes orchestration, Terraform automation, and globally distributed AWS/GCP clusters."
+    },
+    "metrics": {
+      "coreProtocol": "Core Protocol",
+      "coreProtocolValue": "KUBERNETES / DOCKER",
+      "cloudFabric": "Cloud Fabric",
+      "cloudFabricValue": "AWS EKS / GCP GKE",
+      "performanceMetrics": "Performance Metrics",
+      "uptime": "UPTIME 99.999%"
+    },
+    "iac": {
+      "title": "Infrastructure as Code",
+      "description": "Immutable infrastructure defined via Terraform and Crossplane. Multi-region redundancy by design.",
+      "tags": ["Terraform", "HCL", "Crossplane"]
+    },
+    "automation": {
+      "title": "Automation Pipelines",
+      "description": "GitHub Actions & ArgoCD integration for seamless GitOps delivery.",
+      "viewLogs": "View Logs"
+    },
+    "scaling": {
+      "title": "Horizontal Scaling",
+      "description": "Auto-scaling groups triggered by Prometheus custom metrics for 20ms response targets."
+    },
+    "observability": {
+      "title": "Observability",
+      "description": "Grafana dashboards visualizing real-time cluster health and network latency."
+    },
+    "scalability": {
+      "title": "SCALABILITY <br />ENGINEERING",
+      "description": "Designing for the \"Slashdot effect\". My architecture focuses on decoupling state from logic, ensuring that any component can fail or scale without disrupting the user journey.",
+      "activeTuning": "Active Performance Tuning"
+    },
+    "trafficManager": {
+      "title": "Cloud-Native Global Traffic Manager",
+      "proto": "001_GTM_PROTO",
+      "description": "An automated deployment pattern for multi-cloud load balancing using Cloudflare Workers and Terraform. Reduces global latency by 45% through edge-caching and intelligent routing."
+    },
+    "technologyStack": "TECHNOLOGY STACK",
+    "technologies": {
+      "kubernetes": { "name": "Kubernetes", "description": "Orchestration" },
+      "docker": { "name": "Docker", "description": "Containers" },
+      "terraform": { "name": "Terraform", "description": "IaC" },
+      "aws": { "name": "AWS", "description": "Cloud" },
+      "gcp": { "name": "GCP", "description": "Cloud" },
+      "argocd": { "name": "ArgoCD", "description": "GitOps" }
+    }
+  },
+  "home": {
+    "exploreDomains": "EXPLORE DOMAINS",
+    "domainDescriptions": {
+      "frontend": "React, TypeScript, and modern UI architectures",
+      "backend": "Rust, Node.js, and distributed systems",
+      "devops": "Kubernetes, Terraform, and CI/CD pipelines",
+      "gamedev": "Unity, Unreal Engine, and interactive experiences"
+    }
+  }
+}

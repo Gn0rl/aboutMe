@@ -1,0 +1,298 @@
+{
+  "nav": {
+    "home": "Главная",
+    "frontend": "Фронтенд",
+    "backend": "Бэкенд",
+    "devops": "DevOps",
+    "gamedev": "Геймдев"
+  },
+  "hero": {
+    "status": "Жизнь = Разработка",
+    "title1": "РАЗРАБОТЧИК",
+    "title2": "ЯДЕРНОГО ОРУЖИЯ",
+    "description": "Разработка современных систем на технологиях подходящих под задачи, с акцентом на производительность, безопасность и масштабируемость.",
+    "coreProtocol": "Основной трек",
+    "coreProtocolValue": "FRONTEND / DEVOPS",
+    "currentPosition": "Нынешнее место работы",
+    "currentPositionValue": "нету :(",
+    "performanceMetrics": "Стаж",
+    "uptime": "В разработке с 2018 года"
+  },
+  "bento": {
+    "iac": {
+      "title": "Инфраструктура как код",
+      "description": "Неизменяемая инфраструктура, определённая через Terraform и Crossplane. Многорегиональная избыточность по дизайну.",
+      "tags": ["Terraform", "HCL"]
+    },
+    "automation": {
+      "title": "Автоматизация пайплайнов",
+      "description": "Интеграция GitHub Actions и ArgoCD для бесшовной доставки GitOps.",
+      "viewLogs": "Просмотр логов"
+    },
+    "scaling": {
+      "title": "Горизонтальное масштабирование",
+      "description": "Группы автоматического масштабирования, запускаемые пользовательскими метриками Prometheus для целевого времени отклика 20 мс."
+    },
+    "observability": {
+      "title": "Наблюдаемость",
+      "description": "Дашборды Grafana, визуализирующие состояние кластера в реальном времени и задержку сети."
+    }
+  },
+  "scalability": {
+    "title1": "МАСШТАБИРУЕМОСТЬ",
+    "title2": "ИНЖЕНЕРИЯ",
+    "description": "Проектирование для «эффекта Slashdot». Моя архитектура фокусируется на разделении состояния и логики, гарантируя, что любой компонент может отказать или масштабироваться, не нарушая путь пользователя.",
+    "activeTuning": "Активная настройка производительности",
+    "config": "replicaCount: 12\nstrategy: RollingUpdate\nmaxSurge: 25%\nmaxUnavailable: 0",
+    "cardTitle": "Глобальный менеджер трафика",
+    "cardProto": "001_GTM_PROTO",
+    "cardDescription": "Автоматизированный паттерн развёртывания для мультиоблачной балансировки нагрузки с использованием Cloudflare Workers и Terraform. Уменьшает глобальную задержку на 45% благодаря кэшированию на границе и интеллектуальной маршрутизации."
+  },
+  "stack": {
+    "aws": "AWS",
+    "kubernetes": "KUBERNETES",
+    "terraform": "TERRAFORM",
+    "docker": "DOCKER",
+    "cicd": "CI/CD"
+  },
+  "footer": {
+    "copyright": "",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "x": "X",
+    "email": "Email"
+  },
+  "languages": {
+    "en": "EN",
+    "ru": "RU"
+  },
+  "gamedev": {
+    "hero": {
+      "title": "GAMEDEV",
+      "subtitle": "ИНТЕРАКТИВ",
+      "description": "Создание иммерсивных игровых миров с современными движками и архитектурами. От инди 2D игр до 3D окружений AAA-качества."
+    },
+    "metrics": {
+      "engines": "Основные движки",
+      "enginesValue": "Unity / Unreal 5",
+      "languages": "Языки",
+      "languagesValue": "C# / C++ / Blueprints",
+      "shipped": "Выпущено проектов",
+      "shippedValue": "0 ИГР"
+    },
+    "projects": {
+      "interactiveWorlds": {
+        "title": "Интерактивные миры",
+        "description": "Иммерсивные 3D-окружения с динамическим освещением, физическими взаимодействиями и увлекательными сюжетами.",
+        "tags": ["3D миры", "Физика", "Сюжет"]
+      },
+      "unity": {
+        "title": "Разработка на Unity",
+        "description": "Разработка игр на C# с движком Unity для 2D и 3D приложений."
+      },
+      "unreal": {
+        "title": "Unreal Engine",
+        "description": "Высокодетализированные игры на Unreal Engine 5 с Blueprints и C++."
+      },
+      "architecture": {
+        "title": "Архитектура игр",
+        "description": "ECS паттерны, системные сущности и компонентно-ориентированный дизайн."
+      },
+      "multiplayer": {
+        "title": "Мультиплеер системы",
+        "description": "Сетевой геймплей с авторитетными серверами и клиентской предсказательной обработкой."
+      }
+    },
+    "features": {
+      "title": "ИГРОВЫЕ <br />СИСТЕМЫ",
+      "description": "От физических симуляций до ИИ противников — каждая система спроектирована для модульности и производительности.",
+      "activeDevelopment": "Активная разработка"
+    },
+    "systems": {
+      "animation": {
+        "title": "Система анимации",
+        "description": "Машины состояний, деревья смешивания и процедурная анимация для плавного движения персонажей."
+      },
+      "lighting": {
+        "title": "Освещение и VFX",
+        "description": "Глобальное освещение в реальном времени, системы частиц и постобработочные эффекты."
+      },
+      "audio": {
+        "title": "Аудио дизайн",
+        "description": "Пространственный звук, динамические музыкальные системы и процедурная генерация звука."
+      },
+      "input": {
+        "title": "Ввод и UI",
+        "description": "Кроссплатформенная обработка ввода и отзывчивые UI системы с поддержкой доступности."
+      }
+    },
+    "technologyStack": "ТЕХНОЛОГИЧЕСКИЙ СТЕК",
+    "technologies": {
+      "unity": { "name": "Unity", "description": "Движок" },
+      "unreal": { "name": "Unreal", "description": "Движок" },
+      "csharp": { "name": "C#", "description": "Язык" },
+      "cpp": { "name": "C++", "description": "Язык" },
+      "blender": { "name": "Blender", "description": "3D инструменты" },
+      "photon": { "name": "Photon", "description": "Сеть" }
+    }
+  },
+  "frontend": {
+    "hero": {
+      "title": "FRONTEND",
+      "subtitle": "РАЗРАБОТКА",
+      "description": "Создание production-ready React приложений с современными паттернами, типобезопасностью и оптимизацией производительности в масштабе."
+    },
+    "projects": {
+      "componentArchitectureTitle": "Архитектура компонентов",
+      "componentArchitectureDescription": "Проектирование React компонентов с TypeScript, передачей props и переиспользуемыми UI паттернами.",
+      "stateManagementTitle": "Управление состоянием",
+      "stateManagementDescription": "Context API, Zustand и Redux реализации для сложных приложений.",
+      "performanceOptimizationTitle": "Оптимизация производительности",
+      "performanceOptimizationDescription": "Разделение кода, ленивая загрузка и мемоизация для оптимального размера бандла.",
+      "accessibilityFirstTitle": "Доступность на первом месте",
+      "accessibilityFirstDescription": "Интерфейсы, соответствующие WCAG 2.1 AA, с поддержкой навигации с клавиатуры.",
+      "UIUXDesignTitle": "UI/UX дизайн",
+      "UIUXDesignDescription": "Создание интуитивно понятных интерфейсов с акцентом на пользовательский опыт и визуальную иерархию."
+    },
+    "metrics": {
+      "stack": "Основной стек",
+      "stackValue": "React / TypeScript",
+      "build": "Система сборки",
+      "buildValue": "Vite / Turbopack",
+      "performance": "Оценка производительности",
+      "performanceValue": "Lighthouse 100"
+    },
+    "componentSystems": {
+      "title": "Системы компонентов",
+      "description": "Принципы атомарного дизайна, применённые к React компонентам. Строительные блоки для консистентных, поддерживаемых интерфейсов.",
+      "tags": ["Атомарный дизайн", "Storybook", "Дизайн токены"]
+    },
+    "technologyStack": "ТЕХНОЛОГИЧЕСКИЙ СТЕК",
+    "technologies": {
+      "react": { "name": "React", "description": "Фреймворк" },
+      "vite": { "name": "Vite", "description": "Сборка" },
+      "typescript": { "name": "TypeScript", "description": "Типобезопасность" },
+      "scss": { "name": "SCSS", "description": "Стилизация" },
+      "reactRouter": { "name": "React Router", "description": "Маршрутизация" },
+      "vitest": { "name": "Vitest", "description": "Тестирование" }
+    }
+  },
+  "backend": {
+    "hero": {
+      "title": "BACKEND",
+      "subtitle": "СИСТЕМЫ",
+      "description": "Создание надёжных, масштабируемых серверных приложений на Go и Node.js. Фокус на производительности, безопасности и поддерживаемой архитектуре."
+    },
+    "metrics": {
+      "languages": "Основные языки",
+      "languagesValue": "Go / TypeScript",
+      "architecture": "Архитектура",
+      "architectureValue": "Микросервисы / Event-Driven",
+      "response": "Время отклика",
+      "responseValue": "P99 < 50мс"
+    },
+    "distributedSystems": {
+      "title": "Распределённые системы",
+      "description": "Микросервисная архитектура с service mesh, circuit breakers и устойчивыми паттернами коммуникации.",
+      "tags": ["Микросервисы", "Service Mesh", "Устойчивость"]
+    },
+    "scalability": {
+      "title": "МАСШТАБИРУЕМОСТЬ <br />ИНЖЕНЕРИЯ",
+      "description": "Проектирование для «эффекта Slashdot». Моя архитектура фокусируется на разделении состояния и логики, гарантируя, что любой компонент может отказать или масштабироваться, не нарушая путь пользователя.",
+      "activeTuning": "Активная настройка производительности"
+    },
+    "apiGateway": {
+      "title": "Cloud-Native API шлюз",
+      "proto": "001_API_GW_PROTO",
+      "description": "Высокопроизводительный API шлюз с ограничением скорости, аутентификацией и маршрутизацией запросов. Создан на Rust для субмиллисекундной задержки."
+    },
+    "authentication": {
+      "title": "Аутентификация",
+      "description": "JWT-аутентификация с OAuth2 провайдерами и ротацией refresh токенов."
+    },
+    "monitoring": {
+      "title": "Мониторинг",
+      "description": "Метрики Prometheus и распределённая трассировка с Jaeger."
+    },
+    "projects": {
+      "restApiTitle": "Проектирование REST API",
+      "restApiDescription": "RESTful API со спецификациями OpenAPI и автоматической документацией.",
+      "graphqlTitle": "GraphQL сервисы",
+      "graphqlDescription": "GraphQL API с подходом schema-first и Apollo Federation для микросервисов.",
+      "databaseTitle": "Архитектура баз данных",
+      "databaseDescription": "PostgreSQL, MongoDB и Redis с пулингом соединений и кэшированием.",
+      "messageQueuesTitle": "Очереди сообщений",
+      "messageQueuesDescription": "RabbitMQ и Kafka для событийно-ориентированных архитектур и асинхронной обработки."
+    },
+    "technologyStack": "ТЕХНОЛОГИЧЕСКИЙ СТЕК",
+    "technologies": {
+      "nodejs": { "name": "Node.js", "description": "Среда выполнения" },
+      "rust": { "name": "Rust", "description": "Системное" },
+      "postgresql": { "name": "PostgreSQL", "description": "База данных" },
+      "redis": { "name": "Redis", "description": "Кэш" },
+      "graphql": { "name": "GraphQL", "description": "Запросы" },
+      "grpc": { "name": "gRPC", "description": "RPC" }
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DEVOPS",
+      "subtitle": "& ОБЛАКА",
+      "description": "Проектирование высокодоступных, гибких и надёжных систем. Специализация на оркестрации Kubernetes, автоматизации Terraform и глобально распределённых кластерах AWS/GCP."
+    },
+    "metrics": {
+      "coreProtocol": "Основной протокол",
+      "coreProtocolValue": "KUBERNETES / DOCKER",
+      "cloudFabric": "Облочная инфраструктура",
+      "cloudFabricValue": "AWS EKS / Yandex Cloud",
+      "performanceMetrics": "Метрики производительности",
+      "uptime": "АПТАЙМ 99.999%"
+    },
+    "iac": {
+      "title": "Инфраструктура как код",
+      "description": "Неизменяемая инфраструктура, определённая через Terraform и Crossplane. Многорегиональная избыточность по дизайну.",
+      "tags": ["Terraform", "HCL", "Crossplane"]
+    },
+    "automation": {
+      "title": "Автоматизация пайплайнов",
+      "description": "Интеграция GitHub Actions и ArgoCD для бесшовной доставки GitOps.",
+      "viewLogs": "Просмотр логов"
+    },
+    "scaling": {
+      "title": "Горизонтальное масштабирование",
+      "description": "Группы автоматического масштабирования, запускаемые пользовательскими метриками Prometheus для целевого времени отклика 20 мс."
+    },
+    "observability": {
+      "title": "Наблюдаемость",
+      "description": "Дашборды Grafana, визуализирующие состояние кластера в реальном времени и задержку сети."
+    },
+    "scalability": {
+      "title": "МАСШТАБИРУЕМОСТЬ <br />ИНЖЕНЕРИЯ",
+      "description": "Проектирование для «эффекта Slashdot». Моя архитектура фокусируется на разделении состояния и логики, гарантируя, что любой компонент может отказать или масштабироваться, не нарушая путь пользователя.",
+      "activeTuning": "Активная настройка производительности"
+    },
+    "trafficManager": {
+      "title": "Глобальный менеджер трафика",
+      "proto": "001_GTM_PROTO",
+      "description": "Автоматизированный паттерн развёртывания для мультиоблачной балансировки нагрузки с использованием Cloudflare Workers и Terraform. Уменьшает глобальную задержку на 45% благодаря кэшированию на границе и интеллектуальной маршрутизации."
+    },
+    "technologyStack": "ТЕХНОЛОГИЧЕСКИЙ СТЕК",
+    "technologies": {
+      "kubernetes": { "name": "Kubernetes", "description": "Оркестрация" },
+      "docker": { "name": "Docker", "description": "Контейнеры" },
+      "terraform": { "name": "Terraform", "description": "IaC" },
+      "aws": { "name": "AWS", "description": "Облако" },
+      "gcp": { "name": "Yandex Cloud", "description": "Облако" },
+      "argocd": { "name": "ArgoCD", "description": "GitOps" }
+    }
+  },
+  "home": {
+    "exploreDomains": "ИССЛЕДОВАТЬ НАПРАВЛЕНИЯ",
+    "domainDescriptions": {
+      "frontend": "React, TypeScript и современные UI архитектуры",
+      "backend": "Rust, Node.js и распределённые системы",
+      "devops": "Kubernetes, Terraform и CI/CD пайплайны",
+      "gamedev": "Unity, Unreal Engine и интерактивные приложения"
+    }
+  }
+}
