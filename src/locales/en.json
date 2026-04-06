@@ -9,14 +9,14 @@
   "hero": {
     "status": "Life = Development",
     "title1": "DEVELOPER",
-    "title2": "OF NUCLEAR WEAPONS",
+    "title2": "OF AUTOMATED SYSTEMS",
     "description": "Crafting modern systems with the right-fit technologies, emphasizing performance, security, and scalability.",
-    "coreProtocol": "Core Protocol",
-    "coreProtocolValue": "KUBERNETES / DOCKER",
-    "cloudFabric": "Cloud Fabric",
-    "cloudFabricValue": "AWS EKS / GCP GKE",
-    "performanceMetrics": "Performance Metrics",
-    "uptime": "UPTIME 99.999%"
+    "coreProtocol": "Core Track",
+    "coreProtocolValue": "FRONTEND / DEVOPS",
+    "currentPosition": "Current Workplace",
+    "currentPositionValue": "none :(",
+    "performanceMetrics": "Experience",
+    "uptime": "In development since 2018"
   },
   "bento": {
     "iac": {
@@ -56,7 +56,7 @@
     "cicd": "CI/CD"
   },
   "footer": {
-    "copyright": "© 2024 DIGITAL ARCHITECT. BUILT WITH RUST & NEXT.JS",
+    "copyright": "",
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "x": "X",
@@ -139,7 +139,7 @@
   "frontend": {
     "hero": {
       "title": "FRONTEND",
-      "subtitle": "ARCHITECTURE",
+      "subtitle": "DEVELOPMENT",
       "description": "Building production-ready React applications with modern patterns, type safety, and performance optimization at scale."
     },
     "projects": {
@@ -150,7 +150,9 @@
       "performanceOptimizationTitle": "Performance Optimization",
       "performanceOptimizationDescription": "Code splitting, lazy loading, and memoization for optimal bundle sizes.",
       "accessibilityFirstTitle": "Accessibility First",
-      "accessibilityFirstDescription": "WCAG 2.1 AA compliant interfaces with keyboard navigation support."
+      "accessibilityFirstDescription": "WCAG 2.1 AA compliant interfaces with keyboard navigation support.",
+      "UIUXDesignTitle": "UI/UX Design",
+      "UIUXDesignDescription": "Creating intuitive interfaces focused on user experience and visual hierarchy."
     },
     "metrics": {
       "stack": "Primary Stack",
@@ -280,7 +282,7 @@
       "docker": { "name": "Docker", "description": "Containers" },
       "terraform": { "name": "Terraform", "description": "IaC" },
       "aws": { "name": "AWS", "description": "Cloud" },
-      "gcp": { "name": "GCP", "description": "Cloud" },
+      "gcp": { "name": "Yandex Cloud", "description": "Cloud" },
       "argocd": { "name": "ArgoCD", "description": "GitOps" }
     }
   },

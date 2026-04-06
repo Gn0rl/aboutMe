@@ -20,7 +20,7 @@ function Header() {
           to="/"
           className="text-xl font-black tracking-tighter text-[#E2E2E2] hover:opacity-80 transition-opacity"
         >
-          GN0RL.PRO
+          GN0RL.GITHUB.IO
         </Link>
         <nav className="hidden md:flex items-center gap-8 font-['Inter'] tracking-tighter uppercase text-xs font-medium">
           <Link
