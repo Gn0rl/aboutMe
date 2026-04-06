@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import PageHero from "../components/ui/PageHero";
 import DomainCard from "../components/ui/DomainCard";
-import heroImage from "../assets/hero.png";
+import heroImage from "../assets/hero.webp";
 
 function HomePage() {
   const { t } = useTranslation();
