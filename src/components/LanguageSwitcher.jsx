@@ -10,7 +10,7 @@ function LanguageSwitcher() {
   return (
     <button
       onClick={toggleLanguage}
-      className="px-3 py-1 text-xs font-bold uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors"
+      className="hover:bg-[#333333] active:bg-[#555555] rounded-lg px-3 py-3 text-xs font-bold uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors"
     >
       {i18n.language === "en" ? "RU" : "EN"}
     </button>

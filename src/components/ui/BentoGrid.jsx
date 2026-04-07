@@ -104,7 +104,7 @@ function MainProjectCard({
 
   return (
     <div
-      className={`md:col-span-2 md:row-span-2 relative overflow-hidden group bg-gradient-to-br from-[#212121] to-[#2a2a2a] hover:from-[#262626] hover:to-[#2f2f2f] border-l-8 ${derivedBorderColor} ${className}`}
+      className={`md:col-span-2 md:row-span-2 relative overflow-hidden group bg-gradient-to-br from-[#212121] hover:from-[#262626] border-l-8 ${derivedBorderColor} ${className}`}
     >
       <div className="relative z-10 p-8">
         <span
