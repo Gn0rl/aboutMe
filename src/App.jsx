@@ -10,7 +10,7 @@ import GamedevPage from "./pages/GamedevPage";
 function App() {
   return (
     <Router>
-      <div className="bg-[#131313] text-white selection:bg-secondary/30 selection:text-secondary min-h-screen">
+      <div className="text-white selection:bg-secondary/30 selection:text-secondary min-h-screen">
         <Header />
         <main className="pt-32 pb-20 px-8 max-w-7xl mx-auto">
           <Routes>

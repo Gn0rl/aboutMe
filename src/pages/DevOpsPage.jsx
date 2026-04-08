@@ -105,19 +105,10 @@ function DevOpsPage() {
         ]}
         cards={[
           {
-            render: () => (
-              <div className="bg-surface-container-low p-6 bg-[#212121] hover:bg-[#2c2c2c] transition-colors group">
-                <div className="h-2 w-full bg-surface-container-highest mb-6 overflow-hidden rounded">
-                  <div className="h-full bg-tertiary w-3/4 group-hover:w-full transition-all duration-500"></div>
-                </div>
-                <h4 className="text-sm font-bold uppercase tracking-widest mb-2">
-                  {t("devops.scaling.title")}
-                </h4>
-                <p className="text-[10px] text-on-surface-variant leading-relaxed">
-                  {t("devops.scaling.description")}
-                </p>
-              </div>
-            ),
+            title: t("devops.scaling.title"),
+            description: t("devops.scaling.description"),
+            icon: "trending_up",
+            tags: [],
           },
           {
             title: t("devops.observability.title"),

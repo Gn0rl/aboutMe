@@ -9,7 +9,7 @@
   "hero": {
     "status": "Жизнь = Разработка",
     "title1": "РАЗРАБОТЧИК",
-    "title2": "АВТОМАТИЗИРОВАННЫХ СИСТЕМ",
+    "title2": "ПРОФИ",
     "description": "Разработка современных систем на технологиях подходящих под задачи, с акцентом на производительность, безопасность и масштабируемость.",
     "coreProtocol": "Основной трек",
     "coreProtocolValue": "FRONTEND / DEVOPS",
@@ -126,7 +126,7 @@
         "description": "Кроссплатформенная обработка ввода и отзывчивые UI системы с поддержкой доступности."
       }
     },
-    "technologyStack": "ТЕХНОЛОГИЧЕСКИЙ СТЕК",
+    "technologyStack": "СТЕК ТЕХНОЛОГИЙ",
     "technologies": {
       "unity": { "name": "Unity", "description": "Движок" },
       "unreal": { "name": "Unreal", "description": "Движок" },
@@ -167,7 +167,7 @@
       "description": "Принципы атомарного дизайна, применённые к React компонентам. Строительные блоки для консистентных, поддерживаемых интерфейсов.",
       "tags": ["Атомарный дизайн", "Storybook", "Дизайн токены"]
     },
-    "technologyStack": "ТЕХНОЛОГИЧЕСКИЙ СТЕК",
+    "technologyStack": "СТЕК ТЕХНОЛОГИЙ",
     "technologies": {
       "react": { "name": "React", "description": "Фреймворк" },
       "vite": { "name": "Vite", "description": "Сборка" },
@@ -224,7 +224,7 @@
       "messageQueuesTitle": "Очереди сообщений",
       "messageQueuesDescription": "RabbitMQ и Kafka для событийно-ориентированных архитектур и асинхронной обработки."
     },
-    "technologyStack": "ТЕХНОЛОГИЧЕСКИЙ СТЕК",
+    "technologyStack": "СТЕК ТЕХНОЛОГИЙ",
     "technologies": {
       "nodejs": { "name": "Node.js", "description": "Среда выполнения" },
       "rust": { "name": "Rust", "description": "Системное" },
@@ -276,7 +276,7 @@
       "proto": "001_GTM_PROTO",
       "description": "Автоматизированный паттерн развёртывания для мультиоблачной балансировки нагрузки с использованием Cloudflare Workers и Terraform. Уменьшает глобальную задержку на 45% благодаря кэшированию на границе и интеллектуальной маршрутизации."
     },
-    "technologyStack": "ТЕХНОЛОГИЧЕСКИЙ СТЕК",
+    "technologyStack": "СТЕК ТЕХНОЛОГИЙ",
     "technologies": {
       "kubernetes": { "name": "Kubernetes", "description": "Оркестрация" },
       "docker": { "name": "Docker", "description": "Контейнеры" },

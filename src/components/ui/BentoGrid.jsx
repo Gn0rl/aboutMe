@@ -19,7 +19,7 @@ function WideCard({
   if (children) {
     return (
       <div
-        className={`md:col-span-${colSpan} bg-surface-container-low p-8 rounded-lg bg-[#212121] hover:bg-[#2c2c2c] transition-all group`}
+        className={`md:col-span-${colSpan} bg-surface-container-low p-8 bg-[#212121] hover:bg-[#2c2c2c] transition-all group`}
       >
         {children}
       </div>
@@ -28,7 +28,7 @@ function WideCard({
 
   return (
     <div
-      className={`md:col-span-${colSpan} bg-surface-container-low p-8 rounded-lg bg-[#212121] hover:bg-[#2c2c2c] transition-all group`}
+      className={`md:col-span-${colSpan} bg-surface-container-low p-8 bg-[#212121] hover:bg-[#2c2c2c] transition-all group`}
     >
       <div>
         {icon && (

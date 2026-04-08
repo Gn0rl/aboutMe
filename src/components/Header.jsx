@@ -14,7 +14,7 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-[#131313]/70 backdrop-blur-xl shadow-2xl shadow-black/40">
+    <header className="fixed top-0 w-full z-50 bg-[#131313]/40 backdrop-blur-xl shadow-2xl shadow-black/40">
       <div className="flex justify-between items-center px-8 h-16 w-full max-w-7xl mx-auto">
         <Link
           to="/"
@@ -75,15 +75,6 @@ function Header() {
           </Link>
         </nav>
         <div className="flex items-center gap-4 text-[#C6C6C7]">
-          <button className="hover:bg-[#2A2A2A] transition-all duration-300 p-2 rounded active:scale-95 duration-100">
-            <span className="material-symbols-outlined">terminal</span>
-          </button>
-          <button className="hover:bg-[#2A2A2A] transition-all duration-300 p-2 rounded active:scale-95 duration-100">
-            <span className="material-symbols-outlined">code</span>
-          </button>
-          <button className="hover:bg-[#2A2A2A] transition-all duration-300 p-2 rounded active:scale-95 duration-100">
-            <span className="material-symbols-outlined">share</span>
-          </button>
           <div className="w-px h-6 bg-outline-variant/30 mx-2"></div>
           <LanguageSwitcher />
         </div>

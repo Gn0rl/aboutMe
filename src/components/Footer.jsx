@@ -4,7 +4,7 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="w-full py-12 border-t border-[#414754]/15 bg-[#131313]">
+    <footer className="w-full py-12 border-t border-[#414754]/15 bg-[rgba(19, 19, 19, 0.16)] backdrop-blur-xl">
       <div className="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-4">
         <div className="font-['Inter'] text-[10px] tracking-widest uppercase text-[#C1C6D7]">
           {t("footer.copyright")}
